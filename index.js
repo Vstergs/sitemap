@@ -1,8 +1,8 @@
 const fs = require("fs");
 
-const fileName = "1";
+const fileName = "3";
 const urls = fs
-  .readFileSync(`profiles/${fileName}.txt`, "utf-8")
+  .readFileSync(`profiles/${fileName}.csv`, "utf-8")
   .split("\n")
   .filter(Boolean);
 
